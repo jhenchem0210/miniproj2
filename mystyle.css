@@ -1088,6 +1088,7 @@
       background-position: center bottom;
       color: #fff;
       position: relative;
+      opacity: 0.90;
       z-index: 1; }
       #above-the-fold:after {
         content: " ";
