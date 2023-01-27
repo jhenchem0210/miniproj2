@@ -519,12 +519,6 @@
       #loadMore a:hover {
           background-color: #042a63;
       }
-
-      .container .box-container .box:nth-child(1),
-      .container .box-container .box:nth-child(2),
-      .container .box-container .box:nth-child(3){
-          display: inline-block;
-}
     
     @media (min-width: 1400px) {
       .container_wrapper {
