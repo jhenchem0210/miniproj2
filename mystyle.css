@@ -237,28 +237,8 @@
       /* 1 */
       text-transform: none; }
     
-    /**
-         * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
-         *    controls in Android 4.
-         * 2. Correct the inability to style clickable types in iOS and Safari.
-         */
-    button,
-    html [type="button"],
-    [type="reset"],
-    [type="submit"] {
-      -webkit-appearance: button;
-      /* 2 */ }
-    
-    button,
-    [type="button"],
-    [type="reset"],
-    [type="submit"] {
-      /**
-           * Remove the inner border and padding in Firefox.
-           */
-      /**
            * Restore the focus styles unset by the previous rule.
-           */ }
+           */ 
       button::-moz-focus-inner,
       [type="button"]::-moz-focus-inner,
       [type="reset"]::-moz-focus-inner,
@@ -815,26 +795,117 @@
         grid-template-columns: 2fr 1fr;
         grid-template-rows: 1fr;
         max-width: 100% !important; } }
+
+   #post__single-page .post__featured-image1 {
+        background-image: url("media/dahican.jpg");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+                background-size: cover;
+        background-position: center center;
+        min-height: 700px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-flow: row;
+            -ms-flex-flow: row;
+                flex-flow: row;
+        color: #fff;
+        margin-bottom: 55px; }
+    #post__single-page .post__featured-image2 {
+        background-image: url("media/apo2.jpg");background-repeat: no-repeat;
+        -webkit-background-size: cover;
+                background-size: cover;
+        background-position: center center;
+        min-height: 700px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-flow: row;
+            -ms-flex-flow: row;
+                flex-flow: row;
+        color: #fff;
+        margin-bottom: 55px; }
+    #post__single-page .post__featured-image3 {
+        background-image: url("media/adult-adventure-backlit-915972.jpg");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+                background-size: cover;
+        background-position: center center;
+        min-height: 700px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-flow: row;
+            -ms-flex-flow: row;
+                flex-flow: row;
+        color: #fff;
+        margin-bottom: 55px; }
+   #post__single-page .post__featured-image4 {
+        background-image: url("images/baguiopark.jpg");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+                background-size: cover;
+        background-position: center center;
+        min-height: 700px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-flow: row;
+            -ms-flex-flow: row;
+                flex-flow: row;
+        color: #fff;
+        margin-bottom: 55px; }
+    #post__single-page .post__featured-image5 {
+        background-image: url("images/antipolo1.jpg");background-image: url("images/baguiopark.jpg");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+                background-size: cover;
+        background-position: center center;
+        min-height: 700px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-flow: row;
+            -ms-flex-flow: row;
+                flex-flow: row;
+        color: #fff;
+        margin-bottom: 55px; }
+    #post__single-page .post__featured-image6 {
+        background-image: url("images/iloilo1.jpg");background-image: url("images/baguiopark.jpg");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+                background-size: cover;
+        background-position: center center;
+        min-height: 700px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-flow: row;
+            -ms-flex-flow: row;
+                flex-flow: row;
+        color: #fff;
+        margin-bottom: 55px; }
     
-    #post__single-page .post__featured-image1 {
-      background-image: url("media/dahican.png");
-      background-repeat: no-repeat;
-      -webkit-background-size: cover;
-              background-size: cover;
-      background-position: center center;
-      min-height: 700px;
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-      -webkit-flex-flow: row;
-          -ms-flex-flow: row;
-              flex-flow: row;
-      color: #fff;
-      margin-bottom: 55px; }
-      #post__single-page .post__featured-image1 .post__title-container {
+      #post__single-page .post__featured-image1 .post__featured-image2
+      .post__featured-image3 .post__featured-image4 .post__featured-image5 .post__featured-image6 .post__title-container {
         -webkit-align-self: flex-end;
             -ms-flex-item-align: end;
                 align-self: flex-end;
@@ -856,13 +927,17 @@
         -webkit-flex-direction: column;
             -ms-flex-direction: column;
                 flex-direction: column; }
-        #post__single-page .post__featured-image1 .post__title-container h2, #post__single-page .post__featured-image1 .post__title-container p {
+        #post__single-page .post__featured-image1 .post__featured-image2
+        .post__featured-image3 .post__featured-image4 .post__featured-image5 .post__featured-image6 .post__title-container h2, #post__single-page .post__featured-image1 .post__title-container p {
           line-height: 1.8rem; }
-        #post__single-page .post__featured-image1 .post__title-container > p {
+        #post__single-page .post__featured-image1 .post__featured-image2
+        .post__featured-image3 .post__featured-image4 .post__featured-image5 .post__featured-image6 .post__title-container > p {
           font-size: 0.75rem; }
-        #post__single-page .post__featured-image1 .post__title-container .post__avatar-container {
+        #post__single-page .post__featured-image1 .post__featured-image2
+        .post__featured-image3 .post__featured-image4 .post__featured-image5 .post__featured-image6 .post__title-container .post__avatar-container {
           padding: 15px; }
-          #post__single-page .post__featured-image1 .post__title-container .post__avatar-container .post__avatar a {
+          #post__single-page .post__featured-image1 .post__featured-image2
+          .post__featured-image3 .post__featured-image4 .post__featured-image5 .post__featured-image6 .post__title-container .post__avatar-container .post__avatar a {
             width: 45px;
             height: 45px;
             -webkit-border-radius: 50%;
@@ -871,7 +946,8 @@
             margin: 15px auto;
             background-color: #959ea8;
             text-indent: -9999px; }
-          #post__single-page .post__featured-image1.post__title-container .post__avatar-container .post__avatar-name h5 {
+          #post__single-page .post__featured-image1 .post__featured-image2
+          .post__featured-image3 .post__featured-image4 .post__featured-image5 .post__featured-image6 .post__title-container .post__avatar-container .post__avatar-name h5 {
             font-weight: 400; }
     
     #post__single-page .post__content {
