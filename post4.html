@@ -21,22 +21,46 @@
             </a></a></div>
         <label for="menu_icon"> <i class="fa fa-bars"></i></label>
         <input id="menu_icon" type="checkbox">
-        <menu><a href="https://maps.google.com.ph/"> Travel</a><a href="blog.html"> Gallery</a><a href="About.html"> About</a><a href="https://jhenchem0210.github.io/ContriMP2/index.html"> Join Us</a><a href="blog.html"> Log In</a>
+        <menu><a href="https://maps.google.com.ph/"> Travel</a><a href="gallery.html"> Gallery</a><a href="About.html"> About</a><a href="https://jhenchem0210.github.io/ContriMP2/index.html"> Join Us</a><a href="blog.html"> Log In</a>
         </menu>
       </section>
       <section id="post-featured-image">
-        <div class="post__featured-image4">
+        <div class="post__featured-image1">
           <div class="post__title-container">
-            <h2>Who would not love to visit Baguio?</h2>
-            <p>SEPTEMBER 11, 2022  -— Views: 100</p>
+            <h2>Who would you not love to visit Baguio?</h2>
+            <p>SEPTEMBER 11, 2022  -— <span id="visits"></span>Views: </p>
             <div class="post__avatar-container">
-              <div class="post__avatar"><img src="images/jenprofilepic.jpg" height="50" width="50" class="rounded-circle">
+              <div class="post__avatar"><img src="profile.jpg" height="50" width="50" class="rounded-circle">
               </div>
               <div class="post__avatar-name">
                 <h5>Written by</h5>
                 <p>Jennifer Pajalla-Bravo</p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <section id="blog-featured">
+        <div class="post_featured">
+          <div class="post_featured__photo"></div>
+          <div class="post_featured__details">
+            <h2 class="featured-details__title"><a href="#">Lorem ipsum dolor sit amet, consectetur, adipiscing </a></h2><a class="post-card__avatar" href="#">
+              <div class="avatar__muted-line"></div>
+              <div class="avatar__white-bg">
+                <div class="white-bg-container"><img src="images/jenprofilepic.jpg" height="50" width="50" class="rounded-circle">
+                  <div class="avatar__name">by Jennifer Pajalla-Bravo</div>
+                </div>
+              </div></a>
+            <p class="featured-details__desc">
+              <span>Lrem ipsum dolor sit amet, sed do eiusmod consectetur adipiscing elit, sed do eiusmod? — Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Sed do eiusmod 
+              
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Sed do eiusmod <span id="dots">...</span></span> <span id="more">Lrem ipsum dolor sit amet, sed do eiusmod consectetur adipiscing elit, sed do eiusmod? — Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Sed do eiusmod 
+              
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Sed do eiusmod. Lrem ipsum dolor sit amet, sed do eiusmod consectetur adipiscing elit, sed do eiusmod? — Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Sed do eiusmod 
+              
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Sed do eiusmod</span></p>
+
+                <div class="featured-details__action"><button class="btn btn-outline-success me-2" onclick="myFunction()" id="myBtn">Read more</button>
           </div>
         </div>
       </section>
@@ -47,13 +71,13 @@
           <h2>Why do we travel here?</h2>
           <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
           <div class="post__media_container">
-            <div class="post__media_photo4"></div>
+            <div class="post__media_photo1"></div>
             <div class="post__media_caption">
-              <p>Burnham Park</p>
+              <p>Baguio Cathedral</p>
             </div>
           </div>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It </p>
-          <h2>Why do we experience Baguio?</h2>
+          <h2>Why do we use it?</h2>
           <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
         </div>
         <div class="post__tags">
@@ -71,9 +95,9 @@
       </section>
       <section id="post-author-bio">
         <div class="author-bio__container">
-          <div class="author-bio__avatar"><img src="images/jenprofilepic.jpg" height="70" width="70" class="rounded-circle"></div>
+          <div class="author-bio__avatar"><img src="profile.jpg" height="70" width="70" class="rounded-circle"></div>
           <div class="author-bio__description">
-            <h2>Jennifer Pajalla-Bravo</h2>
+            <h2>Yza Grace Delima</h2>
             <p>An aspiring chemist and front-end developer. Co-Founder of GoPilipinasAdventurista which build a community where everyone's experience can make a difference. Join us now.</p>
           </div>
           <div class="author-bio__social-media">
@@ -103,7 +127,7 @@
         <form class="comment-form__container" action="https://formsubmit.co/gopilipinasadventurista@gmail.com" method="POST">
           <input type="text" name="Fname" placeholder="Full Name" class="comment__name">
           <input class="comment__email" type="email" name="Email" placeholder="email">
-          <input class="comment__message" placeholder="message" placeholder="Message" required>
+          <input type="text" class="comment__message" placeholder="message" placeholder="Message" required>
           <button class="comment__action btn btn-outline-success me-2" type="submit">Submit</button>
         </form>
       </section>
@@ -128,6 +152,7 @@
         </div>
       </div>
     </footer>
+    <script async src="https://api.countapi.xyz/hit/https://jhenchem0210.github.io/ContriMP2/post4.html/visits?  callback=callbackName"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <script src="script.min.js"></script>
