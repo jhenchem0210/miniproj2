@@ -642,6 +642,7 @@
       padding: 15px;
       display: inline-block;
       position: absolute; }
+
     .post-card .image1, .post_featured .image1 {
         height: 300px;
         width: 100%;
@@ -651,6 +652,7 @@
                 background-size: cover;
         background-position: center center;
         background-image: url(media/dahican.png); }
+
       .post-card .image2, .post_featured .image2 {
         height: 300px;
         width: 100%;
@@ -660,6 +662,7 @@
                 background-size: cover;
         background-position: center center;
         background-image: url(media/apo.jpg); }
+
       .post-card .image3, .post_featured .image3 {
         height: 300px;
         width: 100%;
@@ -669,6 +672,7 @@
                 background-size: cover;
         background-position: center center;
         background-image: url(media/palawan.jpg); }
+
       .post-card .image4, .post_featured .image4 {
         height: 300px;
         width: 100%;
@@ -678,6 +682,7 @@
                 background-size: cover;
         background-position: center center;
         background-image: url(images/baguiotam.jpg); }
+
       .post-card .image5, .post_featured .image5 {
         height: 300px;
         width: 100%;
@@ -687,6 +692,7 @@
                 background-size: cover;
         background-position: center center;
         background-image: url(images/antipolo12.png); }
+
       .post-card .image6, .post_featured .image6 {
         height: 300px;
         width: 100%;
@@ -701,6 +707,7 @@
         text-align: center;
         padding: 28px;
         line-height: 1.5rem; }
+
         .post-card .post-card__details h2, .post_featured .post-card__details h2 {
           font-family: "Montserrat", sans-serif;
           font-weight: 800;
@@ -708,11 +715,12 @@
           line-height: inherit; }
         .post-card .post-card__details h2:hover, .post_featured .post-card__details h2:hover {
             color: #2980b8; }
+
         .post-card .post-card__details p, .post_featured .post-card__details p {
           font-family: "Work Sans", sans-serif;
           line-height: inherit; }
+
       .post-card .post-card__avatar, .post_featured .post-card__avatar {
-        
         display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
@@ -766,9 +774,11 @@
       -webkit-box-shadow: 0px 20px 39px -5px rgba(0, 0, 0, 0.04);
               box-shadow: 0px 20px 39px -5px rgba(0, 0, 0, 0.04);
       margin-bottom: 40px; }
-      .post_featured a {
+
+    .post_featured a {
         display: block; }
-      .post_featured .post_featured__photo {
+
+    .post_featured .post_featured__photo1 {
         min-height: 500px;
         width: 100%;
         background-color: #2980b8;
@@ -776,7 +786,58 @@
         -webkit-background-size: cover;
                 background-size: cover;
         background-position: center center;
-        background-image: url(media/adventure-albay-clouds-672358.jpg); }
+        background-image: url(media/dahican3.jpg); }
+
+        .post_featured .post_featured__photo2 {
+          min-height: 500px;
+          width: 100%;
+          background-color: #2980b8;
+          background-repeat: no-repeat;
+          -webkit-background-size: cover;
+                  background-size: cover;
+          background-position: center center;
+          background-image: url(media/apo3.jpg); }
+
+        .post_featured .post_featured__photo3 {
+            min-height: 500px;
+            width: 100%;
+            background-color: #2980b8;
+            background-repeat: no-repeat;
+            -webkit-background-size: cover;
+                    background-size: cover;
+            background-position: center center;
+            background-image: url(media/palawan3.jpg); }
+
+        .post_featured .post_featured__photo4 {
+            min-height: 500px;
+            width: 100%;
+            background-color: #2980b8;
+            background-repeat: no-repeat;
+            -webkit-background-size: cover;
+            background-size: cover;
+            background-position: center center;
+            background-image: url(images/baguiohorse.jpg); }
+
+        .post_featured .post_featured__photo5 {
+            min-height: 500px;
+            width: 100%;
+            background-color: #2980b8;
+            background-repeat: no-repeat;
+            -webkit-background-size: cover;
+            background-size: cover;
+            background-position: center center;
+            background-image: url(images/antipolo2.jpg); }
+
+        .post_featured .post_featured__photo6 {
+            min-height: 500px;
+            width: 100%;
+            background-color: #2980b8;
+            background-repeat: no-repeat;
+            -webkit-background-size: cover;
+            background-size: cover;
+            background-position: center center;
+            background-image: url(images/iloilo4.jpg); }
+
       .post_featured .post_featured__details {
         text-align: center;
         line-height: 1.5rem; }
@@ -811,15 +872,15 @@
               -ms-flex-item-align: center;
                   align-self: center;
           margin: 0px; }
-        .post_featured .post-card__avatar .avatar__white-bg {
+     .post_featured .post-card__avatar .avatar__white-bg {
           grid-column: 3/11;
           grid-row: 1/1;
           position: relative; }
-          .post_featured .post-card__avatar .avatar__white-bg .white-bg-container {
-            background-color: white;
-            display: inline-block;
-            padding: 0px 15px; }
-          .post_featured .post-card__avatar .avatar__white-bg .white-bg-container > div {
+      .post_featured .post-card__avatar .avatar__white-bg .white-bg-container {
+          background-color: white;
+          display: inline-block;
+          padding: 0px 15px; }
+      .post_featured .post-card__avatar .avatar__white-bg .white-bg-container > div {
               display: inline-block;
               vertical-align: middle; }
     
