@@ -28,7 +28,7 @@
         <div class="post__featured-image4">
           <div class="post__title-container">
             <h2>Who would you not love to visit Baguio?</h2>
-            <p>SEPTEMBER 11, 2022  -— <span id="visits"></span>Views:100 </p>
+            <p>SEPTEMBER 11, 2022  -— Views : 100 </p>
             <div class="post__avatar-container">
               <div class="post__avatar"><img src="images/jenprofilepic.jpg" height="50" width="50" class="rounded-circle">
               </div>
@@ -42,7 +42,7 @@
       </section>
       <section id="blog-featured">
         <div class="post_featured">
-          <div class="post_featured__photo"></div>
+          <div class="post_featured__photo4"></div>
           <div class="post_featured__details">
             <h2 class="featured-details__title"><a href="#">Lorem ipsum dolor sit amet, consectetur, adipiscing </a></h2><a class="post-card__avatar" href="#">
               <div class="avatar__muted-line"></div>
@@ -95,9 +95,9 @@
       </section>
       <section id="post-author-bio">
         <div class="author-bio__container">
-          <div class="author-bio__avatar"><img src="profile.jpg" height="70" width="70" class="rounded-circle"></div>
+          <div class="author-bio__avatar"><img src="images/jenprofilepic.jpg" height="70" width="70" class="rounded-circle"></div>
           <div class="author-bio__description">
-            <h2>Yza Grace Delima</h2>
+            <h2>Jennifer Pajalla-Bravo</h2>
             <p>An aspiring chemist and front-end developer. Co-Founder of GoPilipinasAdventurista which build a community where everyone's experience can make a difference. Join us now.</p>
           </div>
           <div class="author-bio__social-media">
@@ -153,7 +153,36 @@
         </div>
       </div>
     </footer>
-    <script async src="https://api.countapi.xyz/hit/https://jhenchem0210.github.io/ContriMP2/post4.html/visits?  callback=callbackName"></script>
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "113729608279165");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v15.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <script src="script.min.js"></script>
