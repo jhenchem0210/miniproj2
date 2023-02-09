@@ -914,6 +914,7 @@
                 flex-flow: row;
         color: #fff;
         margin-bottom: 55px; }
+
     #post__single-page .post__featured-image2 {
         background-image: url("media/apo.jpg");
         background-repeat: no-repeat;
@@ -932,6 +933,7 @@
                 flex-flow: row;
         color: #fff;
         margin-bottom: 55px; }
+
     #post__single-page .post__featured-image3 {
         background-image: url("media/adult-adventure-backlit-915972.jpg");
         background-repeat: no-repeat;
@@ -950,6 +952,7 @@
                 flex-flow: row;
         color: #fff;
         margin-bottom: 55px; }
+
    #post__single-page .post__featured-image4 {
         background-image: url("images/baguiopark.jpg");
         background-repeat: no-repeat;
@@ -968,6 +971,7 @@
                 flex-flow: row;
         color: #fff;
         margin-bottom: 55px; }
+
     #post__single-page .post__featured-image5 {
         background-image: url("images/antipolo12.png");
         background-repeat: no-repeat;
@@ -986,6 +990,7 @@
                 flex-flow: row;
         color: #fff;
         margin-bottom: 55px; }
+
     #post__single-page .post__featured-image6 {
         background-image: url("images/iloilo1.jpg");
         background-repeat: no-repeat;
@@ -1078,8 +1083,7 @@
             }
              p{
               font-size: 12px;
-              
-            }
+                          }
 
             #more {display: none;}
     
@@ -1095,7 +1099,8 @@
         margin-bottom: 15px; }
       #post__single-page .post__content h1, #post__single-page .post__content h2, #post__single-page .post__content h3, #post__single-page .post__content h4, #post__single-page .post__content h5, #post__single-page .post__content h6 {
         margin: 25px 0px; }
-       .post__media_photo1 {
+
+      .post__media_photo1 {
         background-color: #2980b8;
         background-image: url("media/dahican2.jpg");
         background-repeat: no-repeat;
@@ -1103,47 +1108,53 @@
                  background-size: cover;
         background-position: center center;
         min-height: 450px; }
-         .post__media_photo2 {
-          background-color: #2980b8;
-          background-image: url("media/apo2.jpg");
-          background-repeat: no-repeat;
-          -webkit-background-size: cover;
-                   background-size: cover;
-          background-position: center center;
-          min-height: 450px; }
-           .post__media_photo3 {
-            background-color: #2980b8;
-            background-image: url("media/palawan2.jpg");
-            background-repeat: no-repeat;
-            -webkit-background-size: cover;
-                     background-size: cover;
-            background-position: center center;
-            min-height: 450px; }
-             .post__media_photo4 {
-              background-color: #2980b8;
-              background-image: url("images/baguiopar.jpg");
-              background-repeat: no-repeat;
-              -webkit-background-size: cover;
-                       background-size: cover;
-              background-position: center center;
-              min-height: 450px;
-              width:100% }
-               .post__media_photo5 {
-                background-color: #2980b8;
-                background-image: url("images/antipolo2.png");
-                background-repeat: no-repeat;
-                -webkit-background-size: cover;
-                         background-size: cover;
-                background-position: center center;
-                min-height: 450px; }
-                 .post__media_photo6 {
-                  background-color: #2980b8;
-                  background-image: url("images/iloilo2.jpg");
-                  background-repeat: no-repeat;
-                  -webkit-background-size: cover;
-                           background-size: cover;
-                  background-position: center center;
-                  min-height: 450px; }
+
+      .post__media_photo2 {
+        background-color: #2980b8;
+        background-image: url("media/apo2.jpg");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center center;
+        min-height: 450px; }
+
+      .post__media_photo3 {
+        background-color: #2980b8;
+        background-image: url("media/palawan2.jpg");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center center;
+        min-height: 450px; }
+
+      .post__media_photo4 {
+        background-color: #2980b8;
+        background-image: url("images/baguiopar.jpg");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center center;
+        min-height: 450px;
+        width:100% }
+
+      .post__media_photo5 {
+        background-color: #2980b8;
+        background-image: url("images/antipolo2.png");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center center;
+        min-height: 450px; }
+
+      .post__media_photo6 {
+        background-color: #2980b8;
+        background-image: url("images/iloilo2.jpg");
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center center;
+        min-height: 450px; }
+
     #post__single-page .post__content .post__media_container .post__media_caption p {
         text-align: center;
         font-size: 0.875rem; }
@@ -1161,6 +1172,7 @@
       font-size: inherit;
       margin-right: 5px;
       color: inherit; }
+
     #post__single-page .post__tags ul {
       display: -webkit-box;
       display: -webkit-flex;
