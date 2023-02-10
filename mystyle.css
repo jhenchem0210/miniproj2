@@ -682,7 +682,7 @@
         -webkit-background-size: cover;
                 background-size: cover;
         background-position: center center;
-        background-image: url(images/baguiotam.jpg); }
+        background-image: url(images/pulag1.png); }
 
       .post-card .image5, .post_featured .image5 {
         height: 300px;
@@ -692,7 +692,7 @@
         -webkit-background-size: cover;
                 background-size: cover;
         background-position: center center;
-        background-image: url(images/antipolo12.png); }
+        background-image: url(images/daraitan1.png); }
 
       .post-card .image6, .post_featured .image6 {
         height: 300px;
@@ -702,7 +702,7 @@
         -webkit-background-size: cover;
                 background-size: cover;
         background-position: center center;
-        background-image: url(images/Iloilo1.png); }
+        background-image: url(images/gigantes.png); }
 
       .post-card .post-card__details, .post_featured .post-card__details {
         text-align: center;
@@ -817,7 +817,7 @@
             -webkit-background-size: cover;
             background-size: cover;
             background-position: center center;
-            background-image: url(images/baguiohorse.jpg); }
+            background-image: url(images/pulag4.jpg); }
 
         .post_featured .post_featured__photo5 {
             min-height: 500px;
@@ -827,7 +827,7 @@
             -webkit-background-size: cover;
             background-size: cover;
             background-position: center center;
-            background-image: url(images/antipolo2.jpg); }
+            background-image: url(images/daraitan.jpg); }
 
         .post_featured .post_featured__photo6 {
             min-height: 500px;
@@ -837,7 +837,7 @@
             -webkit-background-size: cover;
             background-size: cover;
             background-position: center center;
-            background-image: url(images/iloilo4.jpg); }
+            background-image: url(images/gigantes4.jpg); }
 
       .post_featured .post_featured__details {
         text-align: center;
@@ -954,7 +954,7 @@
         margin-bottom: 55px; }
 
    #post__single-page .post__featured-image4 {
-        background-image: url("images/baguiopark.jpg");
+        background-image: url("images/pulag9.jpg");
         background-repeat: no-repeat;
         -webkit-background-size: cover;
                 background-size: cover;
@@ -973,7 +973,7 @@
         margin-bottom: 55px; }
 
     #post__single-page .post__featured-image5 {
-        background-image: url("images/antipolo12.png");
+        background-image: url("images/daraitan8.png");
         background-repeat: no-repeat;
         -webkit-background-size: cover;
                 background-size: cover;
@@ -992,7 +992,7 @@
         margin-bottom: 55px; }
 
     #post__single-page .post__featured-image6 {
-        background-image: url("images/iloilo1.jpg");
+        background-image: url("images/gigantes6.png");
         background-repeat: no-repeat;
         -webkit-background-size: cover;
                 background-size: cover;
@@ -1019,8 +1019,8 @@
         min-height: 400px;
         width: 100%;
         text-align: center;
-        -webkit-box-shadow: inset 0 -200px 250px -40px rgba(0, 0, 0, 0.8);
-                box-shadow: inset 0 -200px 250px -40px rgba(0, 0, 0, 0.8);
+        -webkit-box-shadow: inset 0 -200px 250px -40px rgba(250, 249, 249, 0.966);
+                box-shadow: inset 0 -200px 250px -40px rgb(255, 254, 254);
         display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
@@ -1051,7 +1051,7 @@
                     border-radius: 50%;
             display: block;
             margin: 15px auto;
-            background-color: #959ea8;
+            background-color: #fbfbfc;
             text-indent: -9999px; }
           #post__single-page .post__featured-image1 .post__featured-image2
           .post__featured-image3 .post__featured-image4 .post__featured-image5 .post__featured-image6 .post__title-container .post__avatar-container .post__avatar-name h5 {
@@ -1060,7 +1060,7 @@
           .post-card:hover {
             transform:scale (1.3);
             background: #dbd2ca;
-            box-shadow: 2px 2px 2px #000;
+            box-shadow: 2px 2px 2px #080808;
             z-index: 2;
           }
 
@@ -1072,7 +1072,7 @@
             width: 100%;
               text-align: center;
       
-              -webkit-box-shadow: inset 0 -200px 250px -40px rgba(0, 0, 0, 0.8);
+              -webkit-box-shadow: inset 0 -200px 250px -40px rgb(253, 252, 252);
             box-shadow: inset 0 -200px 250px -40px rgba(0,0,0,.8);
       
             display: flex;
@@ -1092,7 +1092,7 @@
       width: 100%; }
       #post__single-page .post__content * {
         line-height: 1.5rem;
-        color: #2c3e51; }
+        color: #3d4b5a; }
       #post__single-page .post__content a {
         color: #2980b8; }
       #post__single-page .post__content p {
@@ -1129,7 +1129,7 @@
 
       .post__media_photo4 {
         background-color: #2980b8;
-        background-image: url("images/baguiopar.jpg");
+        background-image: url("images/pulag3.jpg");
         background-repeat: no-repeat;
         -webkit-background-size: cover;
         background-size: cover;
@@ -1139,7 +1139,7 @@
 
       .post__media_photo5 {
         background-color: #2980b8;
-        background-image: url("images/antipolo2.png");
+        background-image: url("images/daraitan10.jpg");
         background-repeat: no-repeat;
         -webkit-background-size: cover;
         background-size: cover;
@@ -1148,7 +1148,7 @@
 
       .post__media_photo6 {
         background-color: #2980b8;
-        background-image: url("images/iloilo2.jpg");
+        background-image: url("images/gigantes2.jpg");
         background-repeat: no-repeat;
         -webkit-background-size: cover;
         background-size: cover;
