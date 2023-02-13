@@ -241,6 +241,104 @@
       #footer__pages h3 {
         margin-top: 64px !important;
         margin-bottom: 4px !important; } }
+
+
+        .title {
+          font-size: 20px;
+          font-weight: bold;
+          margin-bottom: 10px;
+        }
+        
+        form div input {
+          width: 80%;
+          height: 30px;
+          border-radius: 8px;
+          outline: none;
+          border: 2px solid #c4c4c4;
+          padding: 0 20px;
+          box-shadow: 2px 2px 4px rgba(19, 19, 19, 0.1);
+        }
+        
+        label {
+          display: block;
+          margin-bottom: 5px;
+        }
+        
+
+        input:focus {
+          border: 2px solid #410344;
+        }
+        
+
+        /**
+        * ! style rules for form icons
+        **/
+        
+
+        
+        .success-icon,
+        .failure-icon {
+          right: 0;
+          opacity: 0;
+        }
+        
+        .failure-icon,
+        .error {
+          color: red;
+        }
+        
+        .success-icon {
+          color: green;
+        }
+        
+        .error {
+          font-size: 14.5px;
+          margin-top: 5px;
+        }
+        
+        /**
+        * ! style rules for button 
+        **/
+        
+        button {
+          margin-top: 2px;
+          width: 30%;
+          height: 35px;
+          background-color: #070a73;
+          border: 2px solid #dcc7e3;
+          border-radius: 8px;
+          color: #fff;
+          font-size: 15px;
+          cursor: pointer;
+          box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+          transition: all 0.1s ease;
+          align-items: center;
+        }
+        
+        button:hover {
+          opacity: 0.8;
+        }
+        
+        /**
+        * ! Media Queries are here
+        **/
+        
+        @media (max-width: 900px) {
+        
+          form,
+          .content {
+            width: 100%;
+          }
+
+        }
+        
+        @media (max-width: 425px) {
+          form {
+            padding: 0px;
+            width: 100%;
+          }
+        }
     
     /*# sourceMappingURL=style.min.css.map */
+ 
     
